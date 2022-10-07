@@ -145,6 +145,10 @@
       justify-self: center;
       opacity: .5;
       position: relative;
+      top:0;
+      left:0;
+      transition: left 2s, top 2s;
+      
    }
 
    .circle-1{
@@ -183,6 +187,10 @@
    }
    .main-circle img{
       mix-blend-mode: color-dodge;
+      position: relative;
+      top:0;
+      left:0;
+      transition: left 2s, top 2s;
    }
    .featured-text {
       font-size: 2rem;
@@ -205,6 +213,6 @@
       margin:0 10rem 0 auto;
    }
  /* End of Animated Circle */
- /* End of Section-1 */ */
+ /* End of Section-1 */ 
 
  
